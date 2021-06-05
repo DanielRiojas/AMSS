@@ -65,19 +65,50 @@ header{
 
 .login__container div{
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .login__container div span{
     position: absolute;
-    right: 200px;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    right: 190px;
 }
 
 .login__container div input{
     position: absolute;
     right: 30px;
+    background-color: #DEDEDE;
+    border: none;
 }
 
+.button {
+    position: relative;
+    left: 70px;
+    width: 50%;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+    background-color: var(--raitColor);
+    border-radius: 5px;
+    border-style: none;
+    height: 2rem;
+}
+
+.login__container--register {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.login__container--register a {
+    color: blue;
+}
 
 
 
