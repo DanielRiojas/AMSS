@@ -1,3 +1,7 @@
+:root{
+    --raitColor: #33485D
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +10,75 @@
 
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    color: blue;
-    font-size: 2rem;
-    font-weight: bold;
+header{
+    height: 80px;
 }
+
+.logo{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.logo-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-name{
+    position: absolute;
+    left: 60px;
+    font-size: 4rem;
+    color: var(--raitColor);
+    font-weight: 700;
+}
+
+.login { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.login__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 7px solid var(--raitColor)
+}
+
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container h2{
+    margin: 30px 30px 30px 30px;
+    font-size: 3.6rem;
+}
+
+.login__container div{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.login__container div span{
+    position: absolute;
+    right: 200px;
+}
+
+.login__container div input{
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+
